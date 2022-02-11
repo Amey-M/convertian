@@ -68,10 +68,10 @@
 			</div>
 		</div>
 	</nav>
-	<form action="imgtopdfprocess" method="post">
+	<form action="imgtopdfprocess" method="post" enctype="multipart/form-data">
 	<div>
   <label for="formFileLg" class="form-label">CHOSE IMAGE </label>
-  <input class="form-control form-control-lg" id="formFileLg" type="file">
+  <input type="file" name="file" class="form-control form-control-lg" id="formFileLg"  >
   </div>
   <div class="external-repos">
 	<div class="icon google-icon brand-border-on-hover js-google-picker-btn" title="Select file from Google Drive"></div>
