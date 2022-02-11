@@ -60,6 +60,11 @@ public class HomeCtrl {
 	{
 		return "weight";
 	}
+	@RequestMapping("/imgtopdf")
+	public String imgtopdf()
+	{
+		return "imgtopdf";
+	}
 	@RequestMapping("/signin")
 	public String Signin()
 	{
