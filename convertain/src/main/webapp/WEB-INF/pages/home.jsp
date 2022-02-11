@@ -86,6 +86,9 @@
 				<h6>convert from different angle units</h6></a> <a class="btn btn-outline-dark btn-lg"
 				href="http://localhost:8080/convertian/weight" role="button"><h3>WEIGHT</h3>
 				<h6>convert from different Weight units</h6></a>
+				<a class="btn btn-outline-dark btn-lg"
+				href="http://localhost:8080/convertian/imgtopdf" role="button"><h3>IMG TO PDF</h3>
+				<h6>convert image to PDF</h6></a>
 		</div>
 	</div>
 	<br>
